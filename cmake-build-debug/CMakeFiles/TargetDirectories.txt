@@ -1,0 +1,3 @@
+/home/brembo/CLionProjects/perMonitor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/brembo/CLionProjects/perMonitor/cmake-build-debug/CMakeFiles/perMonitor.dir
+/home/brembo/CLionProjects/perMonitor/cmake-build-debug/CMakeFiles/edit_cache.dir
