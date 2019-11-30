@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/brembo/CLionProjects/perMonitor/main.c
+/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/cpu.h
+sys/resource.h
+-
+unistd.h
+-
+sys/times.h
+/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/sys/times.h
+
+/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/disk.h
+
+/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/main.c
 stdio.h
 -
 string.h
@@ -15,8 +25,24 @@ unistd.h
 -
 stdlib.h
 -
-sys/resource.h
--
 sys/wait.h
 -
+disk.h
+/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/disk.h
+net.h
+/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/net.h
+cpu.h
+/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/cpu.h
+mem.h
+/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/mem.h
+
+/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/mem.h
+sys/resource.h
+-
+unistd.h
+-
+sys/times.h
+/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/sys/times.h
+
+/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/net.h
 

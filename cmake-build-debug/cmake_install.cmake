@@ -1,4 +1,4 @@
-# Install script for directory: /home/brembo/CLionProjects/perMonitor
+# Install script for directory: /home/jeremymolina/Desktop/Linux-Process-Performance-Mining
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/brembo/CLionProjects/perMonitor/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
