@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/cpu.h
+/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cpu.h
 sys/resource.h
 -
 unistd.h
 -
 sys/times.h
-/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/sys/times.h
+/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/sys/times.h
 
-/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/disk.h
+/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/disk.h
 
-/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/main.c
+/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/main.c
 stdio.h
 -
 string.h
@@ -28,21 +28,21 @@ stdlib.h
 sys/wait.h
 -
 disk.h
-/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/disk.h
+/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/disk.h
 net.h
-/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/net.h
+/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/net.h
 cpu.h
-/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/cpu.h
+/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cpu.h
 mem.h
-/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/mem.h
+/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/mem.h
 
-/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/mem.h
+/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/mem.h
 sys/resource.h
 -
 unistd.h
 -
 sys/times.h
-/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/sys/times.h
+/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/sys/times.h
 
-/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/net.h
+/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/net.h
 

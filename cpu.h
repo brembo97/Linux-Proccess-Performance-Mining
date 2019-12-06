@@ -30,10 +30,10 @@ void init(){
     fclose(file);
 }
 
-double getCurrentCpu(){
+double getCpu(){
     struct tms timeSample;
     clock_t now;
-    long percent;
+    double percent;
 
     now = times(&timeSample);
     if (now <= lastCPU || timeSample.tms_stime < lastSysCPU ||

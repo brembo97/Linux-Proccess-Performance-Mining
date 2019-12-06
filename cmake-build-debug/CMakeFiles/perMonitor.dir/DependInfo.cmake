@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/main.c" "/home/jeremymolina/Desktop/Linux-Process-Performance-Mining/cmake-build-debug/CMakeFiles/perMonitor.dir/main.c.o"
+  "/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/main.c" "/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/CMakeFiles/perMonitor.dir/main.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

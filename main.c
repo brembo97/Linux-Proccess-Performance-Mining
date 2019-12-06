@@ -11,59 +11,19 @@
 
 static int miner_id = -1;
 
-double diskMine() {
-    return getDisk();
-}
-
-double getNetUsage(){
-    return getNet();
-}
-
-long getMemUsage() {
-    return getMem();
-}
-
-double getCpuUsage(){
-    return getCurrentCpu();
-}
-
-void mem(){
-    printf("MEMORY Child Process Created\n");
-    getMemUsage();
-    exit(0);
-}
-
-void cpu(){
-    printf("CPU Child Process Created\n");
-    getCpuUsage();
-    exit(0);
-}
-
-void net(){
-    printf("NET Child Process Created\n");
-    getNetUsage();
-    exit(0);
-}
-
-void disk(){
-    printf("DISK Child Process Created\n");
-    diskMine();
-    exit(0);
-}
-
 void route_to_miner_function(){
     switch(miner_id){
         case 1:
-            cpu();
+            getCpu();
             break;
         case 2:
-            mem();
+            getMem();
             break;
         case 3:
-            net();
+            getNet();
             break;
         case 4:
-            disk();
+            getDisk();
             break;
         default:
             break;
@@ -77,6 +37,7 @@ pid_t init_miner(int new_miner_id){
         case -1:
             break;
         case 0:
+            printf("Running miner %u", new_miner_id);
             route_to_miner_function();
             break;
         default:
@@ -100,6 +61,12 @@ int main(int argc, char * argv[]) {
             init_miner(3);
         }
         else if(strcmp(argv[i], "-d") == 0){
+            init_miner(4);
+        }
+        else {
+            init_miner(1);
+            init_miner(2);
+            init_miner(3);
             init_miner(4);
         }
     }
