@@ -3,4 +3,4 @@ project(perMonitor C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(perMonitor main.c)
+add_executable(perMonitor main.c cpu.h disk.h mem.h net.h)
