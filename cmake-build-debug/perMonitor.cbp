@@ -78,19 +78,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cpu.h">
-			<Option target="perMonitor"/>
-		</Unit>
-		<Unit filename="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/disk.h">
-			<Option target="perMonitor"/>
-		</Unit>
 		<Unit filename="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/main.c">
 			<Option target="perMonitor"/>
 		</Unit>
-		<Unit filename="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/mem.h">
+		<Unit filename="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/miner/cpu.h">
 			<Option target="perMonitor"/>
 		</Unit>
-		<Unit filename="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/net.h">
+		<Unit filename="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/miner/disk.h">
+			<Option target="perMonitor"/>
+		</Unit>
+		<Unit filename="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/miner/mem.h">
+			<Option target="perMonitor"/>
+		</Unit>
+		<Unit filename="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/miner/net.h">
+			<Option target="perMonitor"/>
+		</Unit>
+		<Unit filename="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/queue/q.h">
 			<Option target="perMonitor"/>
 		</Unit>
 		<Unit filename="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/CMakeLists.txt">
