@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/perMonitor.dir/main.c.o"
+  "CMakeFiles/perMonitor.dir/posting/http.c.o"
+  "CMakeFiles/perMonitor.dir/posting/json.c.o"
   "perMonitor"
   "perMonitor.pdb"
 )

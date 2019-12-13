@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /snap/clion/98/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /snap/clion/98/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split
+CMAKE_SOURCE_DIR = /home/brembo/CLionProjects/perMonitor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug
+CMAKE_BINARY_DIR = /home/brembo/CLionProjects/perMonitor/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/perMonitor.dir/depend.make
@@ -59,28 +59,58 @@ include CMakeFiles/perMonitor.dir/flags.make
 
 CMakeFiles/perMonitor.dir/main.c.o: CMakeFiles/perMonitor.dir/flags.make
 CMakeFiles/perMonitor.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/perMonitor.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/perMonitor.dir/main.c.o   -c /Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brembo/CLionProjects/perMonitor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/perMonitor.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/perMonitor.dir/main.c.o   -c /home/brembo/CLionProjects/perMonitor/main.c
 
 CMakeFiles/perMonitor.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/perMonitor.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/main.c > CMakeFiles/perMonitor.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brembo/CLionProjects/perMonitor/main.c > CMakeFiles/perMonitor.dir/main.c.i
 
 CMakeFiles/perMonitor.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/perMonitor.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/main.c -o CMakeFiles/perMonitor.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brembo/CLionProjects/perMonitor/main.c -o CMakeFiles/perMonitor.dir/main.c.s
+
+CMakeFiles/perMonitor.dir/posting/http.c.o: CMakeFiles/perMonitor.dir/flags.make
+CMakeFiles/perMonitor.dir/posting/http.c.o: ../posting/http.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brembo/CLionProjects/perMonitor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/perMonitor.dir/posting/http.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/perMonitor.dir/posting/http.c.o   -c /home/brembo/CLionProjects/perMonitor/posting/http.c
+
+CMakeFiles/perMonitor.dir/posting/http.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/perMonitor.dir/posting/http.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brembo/CLionProjects/perMonitor/posting/http.c > CMakeFiles/perMonitor.dir/posting/http.c.i
+
+CMakeFiles/perMonitor.dir/posting/http.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/perMonitor.dir/posting/http.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brembo/CLionProjects/perMonitor/posting/http.c -o CMakeFiles/perMonitor.dir/posting/http.c.s
+
+CMakeFiles/perMonitor.dir/posting/json.c.o: CMakeFiles/perMonitor.dir/flags.make
+CMakeFiles/perMonitor.dir/posting/json.c.o: ../posting/json.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brembo/CLionProjects/perMonitor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/perMonitor.dir/posting/json.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/perMonitor.dir/posting/json.c.o   -c /home/brembo/CLionProjects/perMonitor/posting/json.c
+
+CMakeFiles/perMonitor.dir/posting/json.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/perMonitor.dir/posting/json.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brembo/CLionProjects/perMonitor/posting/json.c > CMakeFiles/perMonitor.dir/posting/json.c.i
+
+CMakeFiles/perMonitor.dir/posting/json.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/perMonitor.dir/posting/json.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brembo/CLionProjects/perMonitor/posting/json.c -o CMakeFiles/perMonitor.dir/posting/json.c.s
 
 # Object files for target perMonitor
 perMonitor_OBJECTS = \
-"CMakeFiles/perMonitor.dir/main.c.o"
+"CMakeFiles/perMonitor.dir/main.c.o" \
+"CMakeFiles/perMonitor.dir/posting/http.c.o" \
+"CMakeFiles/perMonitor.dir/posting/json.c.o"
 
 # External object files for target perMonitor
 perMonitor_EXTERNAL_OBJECTS =
 
 perMonitor: CMakeFiles/perMonitor.dir/main.c.o
+perMonitor: CMakeFiles/perMonitor.dir/posting/http.c.o
+perMonitor: CMakeFiles/perMonitor.dir/posting/json.c.o
 perMonitor: CMakeFiles/perMonitor.dir/build.make
 perMonitor: CMakeFiles/perMonitor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable perMonitor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/brembo/CLionProjects/perMonitor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable perMonitor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/perMonitor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +123,6 @@ CMakeFiles/perMonitor.dir/clean:
 .PHONY : CMakeFiles/perMonitor.dir/clean
 
 CMakeFiles/perMonitor.dir/depend:
-	cd /Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split /Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split /Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug /Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug /Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/CMakeFiles/perMonitor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/brembo/CLionProjects/perMonitor/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/brembo/CLionProjects/perMonitor /home/brembo/CLionProjects/perMonitor /home/brembo/CLionProjects/perMonitor/cmake-build-debug /home/brembo/CLionProjects/perMonitor/cmake-build-debug /home/brembo/CLionProjects/perMonitor/cmake-build-debug/CMakeFiles/perMonitor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/perMonitor.dir/depend
 

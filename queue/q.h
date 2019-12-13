@@ -6,6 +6,7 @@
 #define PERMONITOR_Q_H
 
 #include <stdio.h>
+#include "../posting/json.h"
 #define MAXSIZE 32
 
 long double queue[MAXSIZE];
@@ -102,13 +103,18 @@ void display()
 void sendOut()
 {
     int i;
-    long double *array[24];
+    long double *datosMinados[24];
+    int estado;
     if(rear>=front)
     {
+        //almacenar el dato de la cola
         for(i=front;i<=rear;i++)
         {
-            array[i] = &queue[i];
+            datosMinados[i] = &queue[i];
+            estado = formatToJSON(*datosMinados[i]);
+            printf("HTTP Estado: %d", estado);
         }
+
     }
 }
 

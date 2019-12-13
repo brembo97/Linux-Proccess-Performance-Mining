@@ -36,7 +36,7 @@ long double getCpu(){ //percentage of CPU used
     lastTotalIdle = totalIdle;
 
 
-    //printf("cpu= %Lf %% \n",percent);
+    printf("cpu= %Lf %% \n",percent);
 
     return percent;
 

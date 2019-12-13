@@ -14,6 +14,8 @@
 #include "miner/cpu.h"
 #include "miner/mem.h"
 #include "queue/q.h"
+#include "posting/json.h"
+
 
 static int miner_id = -1;
 #define QueueSizeHardLimit 32
@@ -47,6 +49,8 @@ pid_t init_miner(int new_miner_id){
             {
                 printf("Queue size: %d \n", queueSize());
             }
+
+            exit(0);
 
             break;
         default:

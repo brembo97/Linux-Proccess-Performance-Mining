@@ -10,7 +10,7 @@ long double getDisk(){
     FILE *diskInfo = fopen("/proc/diskstats", "rb");
     char line[1024];
     while (fgets(line, 1024, diskInfo) != NULL) {
-        if (strstr(line, "sda ")) {
+        if (strstr(line, "nvme0n1")) {
             //puts(line);
             sscanf(line, "%*d %*d %*s %lf %*d %*d %*d %lf", &totalDiskReads, &totalDiskWrites);
             diskThroughput = totalDiskReads/totalDiskWrites;
@@ -18,7 +18,7 @@ long double getDisk(){
         }
     }
 
-    //printf("disk= %lf \n",diskThroughput);
+    printf("disk= %lf \n",diskThroughput);
 
     return diskThroughput;
 }

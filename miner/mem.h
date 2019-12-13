@@ -22,7 +22,7 @@ double long getMem(){ // This value is in KB!
     }
     fclose(file);
 
-    //printf("mem= %d Kb \n",result);
+    printf("mem= %d Kb \n",result);
 
     return result;
 }

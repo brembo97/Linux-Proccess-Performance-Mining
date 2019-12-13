@@ -8,95 +8,107 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug"/>
+				<Option working_dir="/home/brembo/CLionProjects/perMonitor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug"/>
+				<Option working_dir="/home/brembo/CLionProjects/perMonitor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="perMonitor">
-				<Option output="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/perMonitor" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug"/>
+				<Option output="/home/brembo/CLionProjects/perMonitor/cmake-build-debug/perMonitor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/brembo/CLionProjects/perMonitor/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 perMonitor"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 perMonitor"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="perMonitor/fast">
-				<Option output="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/perMonitor" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug"/>
+				<Option output="/home/brembo/CLionProjects/perMonitor/cmake-build-debug/perMonitor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/brembo/CLionProjects/perMonitor/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 perMonitor/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 perMonitor/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/brembo/CLionProjects/perMonitor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/brembo/CLionProjects/perMonitor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/main.c">
+		<Unit filename="/home/brembo/CLionProjects/perMonitor/main.c">
 			<Option target="perMonitor"/>
 		</Unit>
-		<Unit filename="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/miner/cpu.h">
+		<Unit filename="/home/brembo/CLionProjects/perMonitor/miner/cpu.h">
 			<Option target="perMonitor"/>
 		</Unit>
-		<Unit filename="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/miner/disk.h">
+		<Unit filename="/home/brembo/CLionProjects/perMonitor/miner/disk.h">
 			<Option target="perMonitor"/>
 		</Unit>
-		<Unit filename="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/miner/mem.h">
+		<Unit filename="/home/brembo/CLionProjects/perMonitor/miner/mem.h">
 			<Option target="perMonitor"/>
 		</Unit>
-		<Unit filename="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/miner/net.h">
+		<Unit filename="/home/brembo/CLionProjects/perMonitor/miner/net.h">
 			<Option target="perMonitor"/>
 		</Unit>
-		<Unit filename="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/queue/q.h">
+		<Unit filename="/home/brembo/CLionProjects/perMonitor/posting/http.c">
 			<Option target="perMonitor"/>
 		</Unit>
-		<Unit filename="/Users/jeremy.mc/Documents/GitHub/Linux-Process-Performance-Mining-split/CMakeLists.txt">
+		<Unit filename="/home/brembo/CLionProjects/perMonitor/posting/http.h">
+			<Option target="perMonitor"/>
+		</Unit>
+		<Unit filename="/home/brembo/CLionProjects/perMonitor/posting/json.c">
+			<Option target="perMonitor"/>
+		</Unit>
+		<Unit filename="/home/brembo/CLionProjects/perMonitor/posting/json.h">
+			<Option target="perMonitor"/>
+		</Unit>
+		<Unit filename="/home/brembo/CLionProjects/perMonitor/queue/q.h">
+			<Option target="perMonitor"/>
+		</Unit>
+		<Unit filename="/home/brembo/CLionProjects/perMonitor/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
