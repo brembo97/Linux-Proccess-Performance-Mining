@@ -6,7 +6,7 @@
 
 #define BUF_LEN 256
 
-int formatToJSON(long double valorMinado){
+int formatToJSON(long double valorCPU,long double valorMEM,long double valorNET,long double valorDISK){
     //buffer del timestamp
     char buf[BUF_LEN] = {0};
     time_t rawtime = time(NULL);
@@ -29,9 +29,12 @@ int formatToJSON(long double valorMinado){
     snprintf(
             payload,
             4096,
-            "[{\"measurement\":\"cpu\",\"tags\":{\"host_name\":\"NEM\",\"miner_id\":\"miner_69\"},\"time\":\"%s\",\"captures\":{\"value\":%Lf}}]",
+            "[{\"measurement\":\"cpu\",\"tags\":{\"host_name\":\"NEM\",\"miner_id\":\"miner_69\"},\"time\":\"%s\",\"captures\":{\"value1\":%Lf,\"value2\":%Lf,\"value3\":%Lf,\"value4\":%Lf,}}]",
             buf,
-            valorMinado
+            valorCPU,
+            valorMEM,
+            valorNET,
+            valorDISK
     );
     printf("Generated Payload: %s \n", payload);
 

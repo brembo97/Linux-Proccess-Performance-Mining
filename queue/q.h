@@ -110,10 +110,10 @@ void sendOut()
     {
         int k = 0;
         //almacenar el dato de la cola
-        for(i=front;i<=rear;i++)
+        for(i=front;i<=rear;i+=4)
         {
             datosMinados[i] = &queue[i];
-            formatToJSON(*datosMinados[i]);
+            formatToJSON(*datosMinados[i],*datosMinados[i+1],*datosMinados[i+2],*datosMinados[i+3]);
             front = -1;
             rear = -1;
             ++k;

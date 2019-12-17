@@ -10,6 +10,6 @@
 #include <time.h>
 #include "http.h"
 
-int formatToJSON(long double valorMinado);
+int formatToJSON(long double valorCPU,long double valorMEM,long double valorNET,long double valorDISK);
 
 #endif //PERMONITOR_JSON_H
