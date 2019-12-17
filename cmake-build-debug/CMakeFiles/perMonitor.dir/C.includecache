@@ -37,6 +37,8 @@ miner/mem.h
 /home/brembo/CLionProjects/perMonitor/miner/mem.h
 queue/q.h
 /home/brembo/CLionProjects/perMonitor/queue/q.h
+posting/json.h
+/home/brembo/CLionProjects/perMonitor/posting/json.h
 
 /home/brembo/CLionProjects/perMonitor/miner/cpu.h
 
@@ -45,10 +47,6 @@ queue/q.h
 /home/brembo/CLionProjects/perMonitor/miner/mem.h
 
 /home/brembo/CLionProjects/perMonitor/miner/net.h
-
-/home/brembo/CLionProjects/perMonitor/posting/http.c
-http.h
-/home/brembo/CLionProjects/perMonitor/posting/http.h
 
 /home/brembo/CLionProjects/perMonitor/posting/http.h
 stdio.h
@@ -59,10 +57,6 @@ stdio.h
 -
 string.h
 -
-
-/home/brembo/CLionProjects/perMonitor/posting/json.c
-json.h
-/home/brembo/CLionProjects/perMonitor/posting/json.h
 
 /home/brembo/CLionProjects/perMonitor/posting/json.h
 stdio.h
@@ -76,8 +70,6 @@ http.h
 
 /home/brembo/CLionProjects/perMonitor/queue/q.h
 stdio.h
--
-curl/curl.h
 -
 ../posting/json.h
 /home/brembo/CLionProjects/perMonitor/posting/json.h

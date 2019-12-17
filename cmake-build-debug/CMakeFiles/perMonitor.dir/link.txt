@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/perMonitor.dir/main.c.o CMakeFiles/perMonitor.dir/posting/http.c.o CMakeFiles/perMonitor.dir/posting/json.c.o  -o perMonitor 
+/usr/bin/cc -g   CMakeFiles/perMonitor.dir/main.c.o CMakeFiles/perMonitor.dir/posting/http.c.o CMakeFiles/perMonitor.dir/posting/json.c.o  -o perMonitor -lcurl 

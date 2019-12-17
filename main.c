@@ -28,31 +28,29 @@ pid_t init_miner(int new_miner_id){
         case -1:
             break;
         case 0:
-            enqueue(getCpu());
-            enqueue(getMem());
-            enqueue(getNet());
-            enqueue(getDisk());
+            for(;;){
+                enqueue(getCpu());
+                enqueue(getMem());
+                enqueue(getNet());
+                enqueue(getDisk());
 
-            if (queueSize() == QueueSizeSoftLimit) {
-                printf("Queue Size: %d \n", queueSize());
+                if (queueSize() == QueueSizeSoftLimit) {
+                    printf("Soft Limit Reached: %d \n", queueSize());
 
-                sendOut();
+                    sendOut();
 
-                for (int i = 0; i < QueueSizeSoftLimit; ++i) {
-                    printf("Dequeue object: %d \n", dequeue(i));
+                    for (int i = 0; i < QueueSizeSoftLimit; ++i) {
+                        printf("Dequeue object: %d \n", dequeue(i));
+                    }
                 }
-            }
-            else if (queueSize() == QueueSizeHardLimit){
-                printf("Queue full %d \n", queueSize());
-            }
-            else
-            {
-                printf("Queue size: %d \n", queueSize());
+                else if (queueSize() == QueueSizeHardLimit){
+                    printf("Queue full %d \n", queueSize());
+                    exit(0);
+
+                }
+                else printf("Queue size: %d \n", queueSize());
             }
 
-            exit(0);
-
-            break;
         default:
             sleep(1);
             wait(0);
@@ -61,8 +59,7 @@ pid_t init_miner(int new_miner_id){
 }
 
 double main() {
-    for (;;) {
-        init_miner(0);
-        sleep(1);
-    }
+    init_miner(0);
+    sleep(1);
+
 }

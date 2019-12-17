@@ -104,15 +104,19 @@ void sendOut()
 {
     int i;
     long double *datosMinados[24];
-    int estado;
+    printf("SendOut");
+
     if(rear>=front)
     {
+        int k = 0;
         //almacenar el dato de la cola
         for(i=front;i<=rear;i++)
         {
             datosMinados[i] = &queue[i];
-            estado = formatToJSON(*datosMinados[i]);
-            printf("HTTP Estado: %d", estado);
+            formatToJSON(*datosMinados[i]);
+            front = -1;
+            rear = -1;
+            ++k;
         }
 
     }
